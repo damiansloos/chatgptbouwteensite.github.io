@@ -23,9 +23,9 @@ nav {
 }
 
 nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0.5rem 1.5rem;
+    color: #123;
+    text-decoration: arial;
+    padding: 2rem 4rem;
 }
 
 .container {
