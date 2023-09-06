@@ -17,13 +17,13 @@ header {
 }
 
 nav {
-    background-color: #444;
+    background-color: #000;
     padding: 1rem 0;
     text-align: center;
 }
 
 nav a {
-    color: #456;
+    color: #37aea3;
     text-decoration: arial;
     padding: 2rem 4rem;
 }
