@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #37aea3;
+    background-color: #37aea3; /* blue */
     color: #fff;
     text-align: center;
     padding: 2rem 0;
@@ -22,9 +22,21 @@ nav {
     text-align: center;
 }
 
-nav a {
-    color: #37aea3;
-    text-decoration: arial;
+nav a:link {
+    color: #37aea3; /* blue */
+    text-decoration: none;
+    padding: 2rem 4rem;
+}
+
+nav a:hover {
+    color: #ff0202; /* red */
+    text-decoration: none;
+    padding: 2rem 4rem;
+}
+
+nav a:active {
+    color: #12ff02; /* green */
+    text-decoration: none;
     padding: 2rem 4rem;
 }
 
