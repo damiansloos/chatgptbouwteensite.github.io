@@ -22,6 +22,12 @@ nav {
     text-align: center;
 }
 
+nav a:active {
+    color: #12ff02; /* green */
+    text-decoration: none;
+    padding: 2rem 4rem;
+}
+
 nav a:link {
     color: #37aea3; /* blue */
     text-decoration: none;
@@ -30,12 +36,6 @@ nav a:link {
 
 nav a:hover {
     color: #ff0202; /* red */
-    text-decoration: none;
-    padding: 2rem 4rem;
-}
-
-nav a:active {
-    color: #12ff02; /* green */
     text-decoration: none;
     padding: 2rem 4rem;
 }
