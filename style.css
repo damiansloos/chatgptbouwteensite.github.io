@@ -34,6 +34,12 @@ nav a:hover {
     padding: 2rem 4rem;
 }
 
+nav a:visited {
+    color: #23e400; /* green */
+    text-decoration: none;
+    padding: 2rem 4rem;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
