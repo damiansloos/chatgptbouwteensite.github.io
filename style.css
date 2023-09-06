@@ -28,12 +28,6 @@ nav a {
     padding: 2rem 4rem;
 }
 
-nav a:link {
-    color: #37aea3; /* blue */
-    text-decoration: none;
-    padding: 2rem 4rem;
-}
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
