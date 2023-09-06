@@ -22,12 +22,6 @@ nav {
     text-align: center;
 }
 
-nav a:link {
-    color: #37aea3; /* blue */
-    text-decoration: none;
-    padding: 2rem 4rem;
-}
-
 nav a:hover {
     color: #ff0202; /* red */
     text-decoration: none;
