@@ -28,6 +28,12 @@ nav a {
     padding: 2rem 4rem;
 }
 
+nav a:hover {
+    color: #ff0000; /* red */
+    text-decoration: none;
+    padding: 2rem 4rem;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
