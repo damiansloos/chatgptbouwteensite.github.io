@@ -4,6 +4,11 @@ body, h1, h2, h3, p, ul, li {
     padding: 0;
 }
 
+h1 {
+    font-family: verdana;
+    color: #fff;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f7f7f7;
