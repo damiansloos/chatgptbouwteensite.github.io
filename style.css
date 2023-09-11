@@ -45,7 +45,7 @@ nav a, a1:hover {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 50%;
     margin: 0 auto;
     padding: 2rem;
     background-color: #fff;
