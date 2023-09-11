@@ -97,6 +97,7 @@ input, textarea, button {
     margin-bottom: 1rem;
     border: 1px solid #ccc;
     border-radius: 3px;
+    resize: none;
 }
 
 button {
