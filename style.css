@@ -51,6 +51,8 @@ nav a:hover {
 }
 
 .container {
+    position: relative;
+    position: left 50%;
     max-width: 50%;
     margin: 0 auto;
     padding: 2rem;
