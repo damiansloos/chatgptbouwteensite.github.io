@@ -38,7 +38,13 @@ nav a1 {
     padding: 2rem 4rem;
 }
 
-nav a, a1:hover {
+nav a1:hover {
+    color: #ff0000; /* red */
+    text-decoration: none;
+    padding: 2rem 4rem;
+}
+
+nav a:hover {
     color: #ff0000; /* red */
     text-decoration: none;
     padding: 2rem 4rem;
