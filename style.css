@@ -54,8 +54,7 @@ div.container {
     position: relative;
     position: left 0%;
     max-width: 50%;
-    margin: 0 auto;
-    padding: 0px;
+    margin-top: 5%;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
