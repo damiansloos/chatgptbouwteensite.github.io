@@ -50,18 +50,14 @@ nav a:hover {
     padding: 2rem 4rem;
 }
 
-.container {
+div.container {
     position: relative;
     position: left 0%;
     max-width: 50%;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 0px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-div {
-    position: relative;
-    position: left 0%;
 }
 
 .project {
