@@ -59,6 +59,10 @@ nav a:hover {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+div {
+    position: relative;
+    position: left 0%;
+}
 
 .project {
     border: 1px solid #ddd;
