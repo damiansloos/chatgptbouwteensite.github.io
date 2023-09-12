@@ -62,6 +62,19 @@ div.container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
 }
 
+div.textarea {
+    position: relative;
+    position: left 50%;
+    max-width: 45.5%;
+    padding-left: 2%;
+    padding-right: 2.5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+
 div.img1 {
     position: relative;
     position: right 2.5%;
