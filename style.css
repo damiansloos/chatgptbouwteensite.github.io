@@ -58,7 +58,8 @@ nav a:hover {
     background-color: #37aea3;
     text-color: #fff;
     text-align: center;
-    margin-top: 1px;
+    padding-top: 1%;
+    padding-bottom: 1%
 }
 
 div.container {
