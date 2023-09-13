@@ -50,6 +50,14 @@ nav a:hover {
     padding: 2rem 4rem;
 }
 
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    text-color: #456;
+    text-align: center;
+
 div.container {
     position: relative;
     position: left 0%;
