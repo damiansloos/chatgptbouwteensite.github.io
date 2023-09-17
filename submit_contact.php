@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST["message"];
 
     // E-mailadres waar de e-mail naartoe wordt gestuurd
-    $to = "jouw-email@example.com";
+    $to = "damian.sloos@vlietlandcollege.nl";
 
     // Onderwerp van de e-mail
     $subject = "Nieuw contactformulierbericht van $name";
