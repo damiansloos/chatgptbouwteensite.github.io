@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $email = $data["email"];
     $message = $data["message"];
 
-    $to = "jouw-email@example.com";
+    $to = "damian.sloos@vlietlandcollege.nl";
     $subject = "Nieuw contactformulierbericht van $name";
     $email_message = "Naam: $name\n";
     $email_message .= "E-mail: $email\n";
