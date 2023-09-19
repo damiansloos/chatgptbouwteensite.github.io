@@ -22,7 +22,7 @@
         // Je moet deze code vervangen door echte e-mailverzending en serververwerking
 
         // Plaats de .then() en .catch() binnen de fetch aanroep
-        fetch("submit_contact.php", {
+        fetch("https://damiansloos.github.io/chatgptbouwteensite.github.io/submit_contact.php", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
