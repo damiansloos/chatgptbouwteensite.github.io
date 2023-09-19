@@ -19,7 +19,21 @@ document.addEventListener("DOMContentLoaded", function () {
         // Voeg hier je e-mailverzending en verwerkingslogica toe
         // Deze code simuleert het verzenden van het formulier en het verwerken van de reactie
         // Je moet deze code vervangen door echte e-mailverzending en serververwerking
-        setTimeout(function () {
+// Voer de e-mailverzendingslogica op de server uit en stuur een reactie terug naar de client
+.then((response) => response.json())
+.then((data) => {
+    // Hier kun je de serverreactie verwerken
+    if (data.success) {
+        alert("Bedankt voor je bericht. We nemen zo spoedig mogelijk contact met je op.");
+        contactForm.reset();
+    } else {
+        alert("Er is een probleem opgetreden bij het verzenden van je bericht. Probeer het later opnieuw.");
+    }
+})
+.catch((error) => {
+    console.error("Fout bij het verzenden van het formulier: ", error);
+});
+
             // Hier simuleren we een succesvolle reactie van de server
             // Je kunt deze setTimeout verwijderen en je echte e-mailverzending en verwerkingslogica hier plaatsen
             alert("Bedankt voor je bericht. We nemen zo spoedig mogelijk contact met je op.");
