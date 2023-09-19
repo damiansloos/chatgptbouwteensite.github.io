@@ -33,11 +33,3 @@ document.addEventListener("DOMContentLoaded", function () {
 .catch((error) => {
     console.error("Fout bij het verzenden van het formulier: ", error);
 });
-
-            // Hier simuleren we een succesvolle reactie van de server
-            // Je kunt deze setTimeout verwijderen en je echte e-mailverzending en verwerkingslogica hier plaatsen
-            alert("Bedankt voor je bericht. We nemen zo spoedig mogelijk contact met je op.");
-            contactForm.reset();
-        }, 1000); // Stel de time-out in op 1 seconde (1000 milliseconden)
-    });
-});
