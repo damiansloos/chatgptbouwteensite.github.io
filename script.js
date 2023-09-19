@@ -12,5 +12,3 @@
         .catch((error) => {
             console.error("Fout bij het verzenden van het formulier: ", error);
         });
-    });
-});
