@@ -37,3 +37,19 @@ document.addEventListener("DOMContentLoaded", function () {
             });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const contactForm = document.getElementById("contact-form");
+    const confirmationMessage = document.getElementById("confirmation-message");
+
+    contactForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        // Simuleer hier het verzenden van het formulier (bijv. met een AJAX-aanroep naar de server)
+        // Voeg hier je e-mailverzending en verwerkingslogica toe
+
+        // Na succesvol verzenden, toon het bevestigingsbericht en verberg het formulier
+        confirmationMessage.style.display = "block";
+        contactForm.style.display = "none";
+    });
+});
