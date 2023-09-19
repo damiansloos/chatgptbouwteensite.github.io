@@ -1,38 +1,4 @@
 
-                          document.addEventListener("DOMContentLoaded", function () {
-    const contactForm = document.getElementById("contact-form");
-    const confirmationMessage = document.getElementById("confirmation-message");
-
-    contactForm.addEventListener("submit", function (e) {
-        e.preventDefault();
-
-        const name = document.getElementById("name").value;
-        const email = document.getElementById("email").value;
-        const message = document.getElementById("message").value;
-
-        // Simuleer hier het verzenden van het formulier (bijv. met een AJAX-aanroep naar de server)
-        // Voeg hier je e-mailverzending en verwerkingslogica toe
-
-        // Hieronder wordt het bevestigingsbericht weergegeven en het formulier verborgen
-        confirmationMessage.style.display = "block";
-        contactForm.style.display = "none";
-
-        // Voeg hier je e-mailverzending en verwerkingslogica toe
-        // Deze code simuleert het verzenden van het formulier en het verwerken van de reactie
-        // Je moet deze code vervangen door echte e-mailverzending en serververwerking
-
-        // Plaats de .then() en .catch() binnen de fetch aanroep
-        fetch("https://damiansloos.github.io/chatgptbouwteensite.github.io/submit_contact.php", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-                name: name,
-                email: email,
-                message: message,
-            }),
-        })
         .then((response) => response.json())
         .then((data) => {
             // Hier kun je de serverreactie verwerken
