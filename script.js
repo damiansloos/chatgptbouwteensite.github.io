@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", function () {
+
+                          document.addEventListener("DOMContentLoaded", function () {
     const contactForm = document.getElementById("contact-form");
     const confirmationMessage = document.getElementById("confirmation-message");
 
@@ -19,17 +20,31 @@ document.addEventListener("DOMContentLoaded", function () {
         // Voeg hier je e-mailverzending en verwerkingslogica toe
         // Deze code simuleert het verzenden van het formulier en het verwerken van de reactie
         // Je moet deze code vervangen door echte e-mailverzending en serververwerking
-// Voer de e-mailverzendingslogica op de server uit en stuur een reactie terug naar de client
-.then((response) => response.json())
-.then((data) => {
-    // Hier kun je de serverreactie verwerken
-    if (data.success) {
-        alert("Bedankt voor je bericht. We nemen zo spoedig mogelijk contact met je op.");
-        contactForm.reset();
-    } else {
-        alert("Er is een probleem opgetreden bij het verzenden van je bericht. Probeer het later opnieuw.");
-    }
-})
-.catch((error) => {
-    console.error("Fout bij het verzenden van het formulier: ", error);
+
+        // Plaats de .then() en .catch() binnen de fetch aanroep
+        fetch("submit_contact.php", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+                name: name,
+                email: email,
+                message: message,
+            }),
+        })
+        .then((response) => response.json())
+        .then((data) => {
+            // Hier kun je de serverreactie verwerken
+            if (data.success) {
+                alert("Bedankt voor je bericht. We nemen zo spoedig mogelijk contact met je op.");
+                contactForm.reset();
+            } else {
+                alert("Er is een probleem opgetreden bij het verzenden van je bericht. Probeer het later opnieuw.");
+            }
+        })
+        .catch((error) => {
+            console.error("Fout bij het verzenden van het formulier: ", error);
+        });
+    });
 });
