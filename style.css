@@ -138,6 +138,8 @@ button:hover {
 
 .afb1 {
 object-fit: scale-down;
-    margin-left: 50%;
-    margin-top: -100%
+position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 100%;
     }
