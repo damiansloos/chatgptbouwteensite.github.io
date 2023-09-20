@@ -150,6 +150,7 @@ position: absolute;
     top: 0%;
     right: 0%;
     left: 100%;
+    z-index: -1;
     }
 
 .afb2 {
@@ -160,6 +161,7 @@ position: absolute;
     top: -20%;
     right: 0%;
     left: 80%;
+    z-index: -1;
     }
 
 .afb3 {
@@ -170,4 +172,5 @@ position: absolute;
     top: -30%;
     right: 0%;
     left: 90%;
+    z-index: -1;
     }
