@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color: #37aea3; /* blue */
+    background-color: #207971; /* blue */
     text-align: center;
     padding: 2rem 0;
 }
@@ -55,7 +55,7 @@ nav a:hover {
     bottom: 0%;
     left: 0%;
     width: 100%;
-    background-color: #37aea3;
+    background-color: #207971;
     text-color: #fff;
     text-align: center;
     padding-top: 1%;
@@ -71,7 +71,7 @@ div.container {
     padding-bottom: 1%;
     padding-top: 1%;
     margin-bottom: 5%;
-    background-color: #215551;
+    background-color: #207971;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
 }
 
