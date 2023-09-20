@@ -140,6 +140,6 @@ button:hover {
 object-fit: scale-down;
 position: absolute;
     top: 0%;
-    right: 200%;
-    left: 99%;
+    right: 0%;
+    left: 100%;
     }
