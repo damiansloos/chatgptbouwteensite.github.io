@@ -180,8 +180,7 @@ position: absolute;
     height: 100%;
 object-fit: scale-down;
 position: absolute;
-    top: 0%;
+    top: 40%;
     right: 0%;
     left: 100%;
-    z-index: -1;
     }
