@@ -104,6 +104,12 @@ p {
     margin: 0%;
 }
 
+p1 {
+    padding-top: 0%;
+    padding-bottom: 1%;
+    margin: 0%;
+}
+
 .project {
     border: 1px solid #ddd;
     padding: 1rem;
