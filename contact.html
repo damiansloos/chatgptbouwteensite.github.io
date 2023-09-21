@@ -9,12 +9,15 @@
     <header>
         <h1>Contactformulier</h1>
     </header>
+    <!-- titel van de pagina -->
     <nav>
         <a href="index.html">Home</a>
         <a href="projects.html">Projects</a>
         <a href="skills.html">Skills</a>
         <a1 href="contact.html">Contact</a1>
     </nav>
+<!-- nav is een navigatie-element, hier staan links in om te navigeren van pagina naar pagina -->
+    
     <div class="textarea">
         <h2>Contact Me</h2>
         <form method="POST" action="x" >
@@ -28,12 +31,21 @@
         </form>
         <p id="confirmation-message" style="display: none;">Je hebt het bericht verzonden.</p>
     </div>
-
+<!-- dit is de code van het contactformulier, deze staat in een div, en het gedeelte waar je wat kan invullen staat in de form element. Waar je iets kan invullen wordt eerst gelabeld met het label element
+    vervolgens kan je iets invullen, dit wordt geregeld door de input element. Als je klaar bent met invullen en je drukt op de button dan komt het leuke, in de eerste <form staat een action element,
+    dit element verwijst naar de site die de verwerking doet. Eerst was het plan om dit zelf met PHP te verwerken maar github.io ondersteunt dit niet. Wat er had moeten gebeuren is:
+    zodra op de knop is gedrukt om het formulier te verzenden wordt door de action element verwezen naar de javascript code. Die de verzending van de mail regelt,
+    en onderaan staat de code in javascript die zorgt dat de paragraaf wordt getriggered en dan krijg je het bericht dat je bericht is verzonden. Notitie, deze code werkt wel nog, er is op het moment niks nuttigs aan
+    Dit komt omdat zodra de verwerking door de externe site gedaan wordt dan verwijst deze site naar een eigen pagina waarop staat dat het verzenden gelukt is.
+    Als github wel PHP zou ondersteunen dan zou de javascript code wel getriggerd worden-->
+    
     <div class="footer">
         <p> Damian Sloos </p>
     </div>
-
+<!-- footer code -->
+    
     <script src="script.js"></script>
+    <!-- dit is de code die naar javascript verwijst -->
 </body>
 </html>
 
