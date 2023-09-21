@@ -1,4 +1,4 @@
-/* Reset some default styles */
+/* dit zijn standaardstijlen, kunnen aangepast worden wanneer mogelijk */
 body, h1, ul, li {
     margin: 0;
     padding: 0;
@@ -8,47 +8,55 @@ h1 {
     font-family: verdana;
     color: #fff;
 }
+/* specifieke stijl voor h1 */
 
 body {
     font-family: Arial, sans-serif;
     background-color: #811818;
 }
+/* specifieke stijl voor tekst in een body die naat aangeduid wordt met een speciaal element */
 
 header {
     background-color: #207971; /* blue */
     text-align: center;
     padding: 2rem 0;
 }
+/* de styling voor de header */
 
 nav {
     background-color: #000;
     padding: 1rem 0;
     text-align: center;
 }
+/* de styling van de nav, hierin zitten de links naar de andere pagina's, de nav werkt dus als een soort aparte div waar de links naar de andere paginas in staan */
 
 nav a {
     color: #37aea3; /* blue */
     text-decoration: none;
     padding: 2rem 4rem;
 }
+/* de decoratie van normale, inactieve links */
 
 nav a1 {
     color: #23e400; /* green */
     text-decoration: none;
     padding: 2rem 4rem;
 }
+/* dit is voor de opmaak van de actieve link, die krijgt dan een andere kleur dan de inactieve links */
 
 nav a1:hover {
     color: #ff0000; /* red */
     text-decoration: none;
     padding: 2rem 4rem;
 }
+/* als je over de links hovert */
 
 nav a:hover {
     color: #ff0000; /* red */
     text-decoration: none;
     padding: 2rem 4rem;
 }
+/* als je over de links hovert */
 
 .footer {
     position: fixed;
@@ -61,6 +69,7 @@ nav a:hover {
     padding-top: 1%;
     padding-bottom: 1%
 }
+/* dit is de opmaakt voor de footer, hierin kan de footer aangepast worden voor zover nodig */
 
 div.container {
     position: relative;
@@ -74,6 +83,7 @@ div.container {
     background-color: #207971;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
 }
+/* opmaak van de div container, hier staat content in die ik op een bepaalde manier wil hebben */
 
 div.textarea {
     margin-left: 25%;
@@ -85,30 +95,27 @@ div.textarea {
     background-color: #37aea3;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
 }
-
-.img1 {
-    position: relative;
-    position: right 2.5%;
-    position: left 60%;
-    max-width: 45%;
-}
+/* de opmaak voor een textarea */
 
 h2, h3 {
     padding-top: 0.6%;
     margin: 0px;
 }
+/* opmaak h2 en h3 */
 
 p {
     padding-top: 0%;
     padding-bottom: 0.5%;
     margin: 0%;
 }
+/* opmaak paragraven */
 
 p1 {
     padding-top: 0%;
     padding-bottom: 1%;
     margin: 0%;
 }
+/* opmaak van een ander type paragraaf */
 
 .project {
     border: 1px solid #ddd;
@@ -116,10 +123,12 @@ p1 {
     margin-bottom: 1rem;
     background-color: #37aea3;
 }
+/* dit is de opmaak van de boxen op de pagina projects, hier in deze code staat de opmaak voor de box waarin de tekst staat */
 
 form {
     margin-top: 1rem;
 }
+/* opmaak form, stel je wilt hem in het midden van het scherm */
 
 input, textarea, button {
     display: block;
@@ -130,6 +139,7 @@ input, textarea, button {
     border-radius: 3px;
     resize: none;
 }
+/* opmaak van de elementen in de form */
 
 button {
     background-color: #333;
@@ -137,10 +147,12 @@ button {
     border: none;
     cursor: pointer;
 }
+/* een andere opmaak voor de button, is immers ook een andere element dan de andere gedeelten in de form */
 
 button:hover {
     background-color: #555;
 }
+/* als je over de button hover veranderd deze van kleuer */
 
 .afb1 {
     width: 100%;
@@ -152,6 +164,7 @@ position: absolute;
     left: 100%;
     z-index: -1;
     }
+/* deze code is voor het fixen van de grootte van de afbeeldingen, zelfs op kleinere devices, en de positie ten opzichte van het andere element */
 
 .afb2 {
     width: 100%;
@@ -163,6 +176,7 @@ position: absolute;
     left: 90%;
     z-index: -1;
     }
+/* deze code is voor het fixen van de grootte van de afbeeldingen, zelfs op kleinere devices, en de positie ten opzichte van het andere element */
 
 .afb3 {
     width: 100%;
@@ -174,6 +188,7 @@ position: absolute;
     left: 90%;
     z-index: -1;
     }
+/* deze code is voor het fixen van de grootte van de afbeeldingen, zelfs op kleinere devices, en de positie ten opzichte van het andere element */
 
 .vid1 {
     width: 100%;
@@ -184,3 +199,4 @@ position: absolute;
     right: 0%;
     left: 100%;
     }
+/* deze code is voor het fixen van de grootte van de videa, zelfs op kleinere devices, en de positie ten opzichte van het andere element */
